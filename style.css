@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: gray;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.main-container h1{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,106,191,1) 0%, rgb(75, 159, 165) 100%);
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,106,191,1) 0%, rgba(0,255,214,1) 100%); */
+  width: 800px;
+  min-height: 400px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.inputContainer input{
+ height: 60px;
+ border-radius: 10px;
+ border: none;
+ padding: 5px 10px;
+ font-size: 20px;
+
+}
+.inputContainer label {
+  color: white;
+  font-size: 17px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn button{
+  width: 250px;
+  height:60px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.outputContainer {
+  background-color: white;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+
+
